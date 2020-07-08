@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>registry</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="index.js" charset="utf-8"></script>
+  </head>
+  <body class="container" onload="registrySectionOnload()">
+              <hr>
+              <table>
+                   <tr>
+                    <h6>REGISTRY</h6>
+                      <div id="nav_buttons_registry">
+                         
+                      </div>
+                  </tr>
+              </table>
+               <div id="new_std_details">  
+                        <hr>
+                        <h6><u>Pupils Details</u> </h6>
+                            <div class="row">
+                                     <div class="col-sm-4">
+                                       <label for="stdname">Name</label><br>  <input type="text" name="stdname" placeholder="John Doe"> <br>
+                                       <label for="stdgender">Gender</label> <br>  <input type="text" name="stdgender" placeholder="Male"> <br>
+                                       <label for="stdage">Age</label> <br> <input type="number" name="stdage" placeholder="56">
+                                     </div>
+                                     <div class="col-sm-4">
+                                       <label for="std_disability">Disability Status</label><br>
+                                        <select class="Disability" name="Disability_drop_down">
+                                          <option value="">None</option>
+                                          <option value="">Yes</option>
+                                        </select>
+                                        <br>
+
+                                       <label for="std_class">Class</label> <br>
+                                             <select class="class" name="stdclass_drop_down">
+                                                   <option value="">Class</option>
+                                                   <option value="">Intro</option>
+                                                   <option value="">Top</option>
+                                                   <option value="">Baby</option>
+                                                   <option value="">Nursery</option>
+                                                   <option value="">G1</option>
+                                                   <option value="">G2</option>
+                                                   <option value="">G4</option>
+                                                   <option value="">G5</option>
+                                                   <option value="">G6</option>
+                                             </select>
+                                        <br>
+                                       <label for="std_admno">Admission No</label> <br> <input type="number" name="stdage" placeholder="56">
+                                     </div>
+                                     <div class="col-sm-4">
+                                       <label for="std_disability">Any Special Need/Attention</label><br>
+                                        <select class="Disability" name="Disability_drop_down">
+                                          <option value="">None</option>
+                                          <option value="">Yes</option>
+                                        </select>
+                                        <p>If yes, Describe below:</p>
+                                         <textarea name="if_disability" rows="8" cols="30" maxlength="45" style="max-height:10vh;" ></textarea>
+                                        <br>
+                                     </div>
+                            </div>
+                      <h6> <u>Parent/Guardian Details</u> </h6>
+
+                      <label for="parent_name">Name</label> <br>  <input id="pname" type="text" name="parent_name" placeholder="Mercy Cheptoo"> <br>
+                      <label for="parent_phone_no">Phone No</label> <br><input id="pphoneno" type="text" name="parent_phone_no" placeholder="07123456789">
+                      <hr>
+                        <table  cellpadding="4">
+                              <tr>
+                                    <td > <input type="submit" name="submit" value=" SUBMIT" class="btn btn-success"></td>
+                                    <td>
+                                      <label for="admno_stdname">Admission Number :-</label><input type="text" name="admno_stdname" placeholder="0000">
+                                      <button type="button_search_admno" name="button_admno" class="btn btn-info">Search</button>
+                                    </td>
+                                    <td><button type="button" name="button"  onclick="editDetails()" class="btn btn-info">Update Details</button></td>
+                                    <td><button type="button" name="button"  style="margin-right: 10px;" class="btn btn-danger">Remove/Deregister</button></td>
+                              </tr>
+                        </table>
+              </div>        
+  </body>
+</html>

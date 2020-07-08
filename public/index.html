@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Login | Username | Password</title>
+        <link rel="stylesheet" href="index.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="index.js"></script>
+      </head>
+          <body id="body1" class="container" style="background-color:rgb(224, 214, 224);" onload="index_defaults()">
+         
+              <div id="login_section">
+                    <p><img src="images/shulelogo.png" alt="School Logo" id="img_logo"></p>
+                    <p style="color: brown;">TEMBWO JUNIOR ACADEMY <br> Information Management System <br>
+                      ********* <br>
+                      Intergrated with ShulePlus Mobile Application</p>
+                    <hr>
+                          <div id="login_area">
+                                <table>
+                                    <tr>
+                                      <td><Label for="email_login">Username</Label></td><td><input type="email" name="email_login" id="email_login"></td>
+                                    </tr>
+                                    <tr>
+                                      <td><Label for="password_login">Password</Label></td><td><input type="password" name="password_login" id="password_login"></td>
+                                    </tr>
+                                    <tr >
+                                      <td colspan="2"><button type="submit" name="login" class="btn btn-success" style="width:100%;"onclick="authenticate()">Login</button></td>
+                                    </tr>
+                                </table> 
+                                <br>
+                                <table style="font-size: 70%;">
+                                  <tr>
+                                    <td>
+                                      Forgot Password? <button onclick="p_reset()" style="background-color:#FFF; border: none; color: rgb(104, 160, 233);" >Reset here...</button>
+                                    </td>
+                                  </tr>
+                                </table>
+                                
+                          </div>
+                  
+                    <div id="reset_area">
+                      <table>
+                          <tr>
+                            <td><Label for="email_login_reset">Email Address</Label></td><td><input type="email" name="email_login_reset" id="email_login_reset"></td>
+                          </tr>
+                         
+                          <tr >
+                            <td colspan="2"><button type="submit" name="login" class="btn btn-success" style="width:100%;"onclick="after_p_reset()">Reset</button></td>
+                          </tr>
+                          <br>
+                      </table>
+                      
+                </div>
+              </div>
+           
+          </body>
+</html>

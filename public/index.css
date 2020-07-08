@@ -1,0 +1,84 @@
+html
+{
+background-color: rgb(224, 214, 224);
+}
+
+.container
+{
+font-size: 100%;
+
+}
+#img_logo
+{
+height: 50%;
+}
+
+#login_section
+{
+text-align: center;
+margin-top: 10%;
+border-style: solid;
+border-color: powderblue;
+background-color: #FFF;
+border-radius: 10px;
+}
+#intro_sec
+{
+background-image: url(images/shuleplus_welcome.png);
+
+}
+#login_section table
+{
+  width: 26%;
+margin-left: 37%;
+margin-right: 37%;
+}
+#login_section img
+{
+height: 60px;
+}
+
+h6
+{
+color: royalblue;
+}
+
+#buttons_nav
+{
+background-color: aliceblue;
+border-top: rgb(219, 32, 163);
+border-right: orchid;
+height: 6vh;
+border-radius: 15%;
+size: 100%;
+margin-top:6px;
+}
+
+#launcher_navigation_bar
+{
+margin-top: 2%;
+width: 100%;
+height: 18%;
+padding-left: 1%;
+background-color: rgb(219, 32, 163);
+}
+
+#nav_buttons_registry
+{
+  margin-left: 50%;
+}
+#launcher_interchange_section
+{
+background-color: rgb(168, 218, 238);
+background-image: url(images/bg_gen.png);
+height: 80%;
+}
+
+#fees_nav_table
+{
+margin-left: 70%;
+}
+#f_btn
+{
+margin-left: 1%;
+}

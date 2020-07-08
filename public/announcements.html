@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>notifications</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body class="container">
+      <div id="top_section">
+        <h6>ANNOUNCEMENTS</h6> 
+        <hr>
+      </div>
+           <div class="row">
+              <div class="col-sm-6" style="border-right:solid grey;">
+                   <form class="message_note" action="index.html" method="post">
+                     <label for="note_topic">Message Topic</label><br>
+                     <input type="text" name="note_topic" > <br>
+                     <label for="note_body">Message body:</label><br>
+                     <textarea name="note_body" rows="8" cols="50" style="width:100%; max-height:20vh;"></textarea><br>
+                     <label for="note_date">Date Posted:</label><br>
+                     <input type="date" name="note_date" > <br> <br>
+                     <button type="button" name="button" class="btn btn-info">Post Message</button> <br><br>
+                   </form>
+              </div>
+              <div class="col-sm-6">
+                <h5>Currently LIVE Announcements</h5>
+                 <table class="form-control">
+                   <tr>
+                     <th>Date Posted</th><th> Topic</th><th>Msg Body</th><th>Posted by</th><th>Msg ID</th><th>Expiry Date</th>
+                   </tr>
+
+
+                 </table>
+             </div>
+           </div>
+
+     
+
+  </body>
+</html>
